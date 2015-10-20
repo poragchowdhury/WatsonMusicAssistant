@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Music Teacher</string>
+    <string name="action_ask">Ask Watson</string>
+    <string name="action_compose">Compose</string>
+    <string name="edit_message">Type Question</string>
+    <string name="button_send">Ask!</string>
+    <string name="title_activity_display_message">Answer</string>
+    <string name="title_activity_compose">Compose Music</string>
+    <string name="user_id">utep_student7</string>
+    <string name="user_password">xrOv9LH3</string>
+    <string name="user_watson_server_instance">https://watson-wdc01.ihost.com/instance/530/deepqa/v1/question</string>
+    <string name="title_activity_compose_music">ComposeMusic</string>
+    <string-array name="signature_arrays">
+        <item>Time signature</item>
+        <item>4/4</item>
+        <item>3/4</item>
+        <item>2/4</item>
+        <item>1/4</item>
+    </string-array>
+    <string-array name="scales_arrays">
+        <item>Choose scale</item>
+        <item>C-major</item>
+        <item>C-minor</item>
+        <item>D-minor</item>
+        <item>D-major</item>
+    </string-array>
+    <string-array name="chords_arrays">
+        <item>Add chords</item>
+    </string-array>
+    <string-array name="genre_arrays">
+        <item>Choose genre</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Classical</item>
+        <item>Blues</item>
+    </string-array>
+</resources>

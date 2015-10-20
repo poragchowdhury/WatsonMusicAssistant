@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    >
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendMessage"
+        android:layout_marginTop="150dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressId"
+        style="?android:attr/indeterminateProgressStyle"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:layout_marginLeft="-1dp"
+        android:max="500"
+        android:progress="0"
+        />
+
+</RelativeLayout>
